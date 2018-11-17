@@ -1,0 +1,43 @@
+<html>
+<h1 align="center"> registration </h1>
+<head>
+	<title>
+		online voting system
+	</title>
+	<script src="valid.js"></script>
+	<body>
+		<center>
+			<form name="form1" action="reg.jsp">
+				<table border="0">
+					<tr> 
+						<th> Name </th>
+						<td> <input type="text" name="name1" placeholder="Enter your Name"> </td>
+					</tr>
+					<tr>
+						<th> password </th>
+						<td> <input type="password" name="pass" placeholder="****" > </td>
+					</tr>
+					<tr>
+						<th>date of birth </th>
+						<td> <input type="text" name="date"> </td>
+					</tr>
+					<tr>
+						<th>voterid</th>
+						<td> <input type="text" name="voterid" placeholder="Enter your voterid"> </td>
+					</tr>
+					</tr>
+					<tr>
+						<th>gender</th>
+						<td> <input type="radio" value="male"  name="gender" >
+							 <input type="radio" value="female" name="gender">
+						</td>
+					</tr>
+
+				</table>
+				<br>
+				<input type="button" name="register" value="Register" onClick="valid()">
+				<input type="reset" name="reset" value="ReSet">
+				
+			</form>
+		</center>
+</head>
